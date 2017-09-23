@@ -26,7 +26,14 @@ function	set_changelog_version()
 		data.last_version	= version;
 		data.save(function()
 		{
-			document.location.href = "../popup/tabber.html";
+			if (document.location.href.includes("sidebar"))
+			{
+				document.location.href = "../sidebar/tabber.html";
+			}
+			else
+			{
+				document.location.href = "../popup/tabber.html";
+			}
 		});
 	});
 }
