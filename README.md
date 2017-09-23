@@ -1,5 +1,6 @@
 # Tabber
-A Firefox addon to save your open tabs in one place
+A Firefox addon to save your open tabs in one place  
+[Add to Firefox](https://addons.mozilla.org/firefox/addon/tabber)
 
 ### Disclaimer 
 This addon was created with the goal to fit to **my personal needs** at a **specific moment**.  
