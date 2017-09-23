@@ -1,0 +1,16 @@
+#replace_tabs,
+#compact,
+#reset,
+#reset_continue
+{
+	height:		30px;
+	margin-top:	5px;
+
+	font-size:	90%;
+}
+
+#reset,
+#reset_continue
+{
+	margin-top: 10px;
+}

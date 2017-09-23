@@ -1,0 +1,183 @@
+#add
+{
+	margin-top: 5px;
+}
+
+input[type=text],
+#add_group_button,
+#replace_with_tabs,
+.list_button,
+.add_tabs_list_button,
+.delete_button
+{
+	height: 40px;
+	border: none;
+	font-size: 13px;
+	text-align: center;
+}
+
+.list_button,
+.add_tabs_list_button,
+.delete_button
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+input[type=text]
+{
+	box-sizing: border-box;
+	width: 100%;
+	border-bottom: none;
+}
+
+.list_button,
+.add_tabs_list_button,
+.delete_button
+{
+	border-bottom: none;
+	overflow: hidden;
+}
+
+#add_group_button,
+#replace_with_tabs
+{
+	width: 100%;
+}
+
+#add_group_button
+{
+	margin-top: 10px;
+}
+
+.list_button,
+.add_tabs_list_button
+{
+	width: 470px;
+}
+
+.list_button.continue
+{
+	font-size:			90%;
+	background-color:	rgba(255, 0, 0, 0.7);
+	color:				rgb(255, 255, 255);
+}
+
+.add_tabs_list_button
+{
+	margin-left: 15px;
+}
+
+.add_tabs_list_button:hover
+{
+	background-color: rgba(220, 220, 220, 1);
+}
+
+.selected
+{
+	background-color: rgba(29, 135, 191, 0.7);
+	color: rgba(255, 255, 255, 1);
+}
+
+.selected:hover
+{
+	background-color: rgba(29, 135, 191, 1);
+	color: rgba(255, 255, 255, 1);
+}
+
+.delete_button
+{
+	line-height: 30px;
+	font-family: comfortaa;
+	font-size: 135%;
+	width: 30px;
+	border: none;
+}
+
+.delete_button.mouseover
+{
+	background-color: rgba(255, 0, 0, 0.7);
+	color: rgba(255, 255, 255, 1);
+}
+
+.delete_button:hover
+{
+	background-color: rgba(255, 0, 0, 0.5);
+}
+
+.last_button
+{
+	border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+}
+
+#add_group_button:hover,
+#replace_with_tabs:hover,
+.list_button:hover,
+.list_button.mouseover
+{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.list_button.continue:hover,
+.list_button.continue.mouseover
+{
+	background-color: rgba(255, 0, 0, 0.5);
+}
+
+#list
+{
+	margin-top: 10px;
+}
+
+#change_url,
+#add_group
+{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+#change_url
+{
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+#add_group
+{
+	background-color: rgba(0, 0, 0, 1);
+}
+
+#change_url #edit_url_save_button,
+#add_group #add_group_button2
+{
+	margin-left: 10%;
+}
+
+#change_url #tab_new_url
+{
+	box-sizing: border-box;
+	width: 470px;
+	height: 40px;
+	margin-top: 75px;
+	margin-left: 15px;
+}
+
+#change_url #edit_url_save_button,
+#change_url #edit_url_cancel_button,
+#add_group #add_group_button2,
+#add_group #cancel_group_button
+{
+	width: 40%;
+	height: 30px;
+	margin-top: 5px;
+}
+
+#add_group #opened_tabs_list
+{
+	width: 100%;
+	margin-top: 20px;
+}

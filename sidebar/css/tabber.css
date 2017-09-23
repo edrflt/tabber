@@ -1,0 +1,60 @@
+input[type=text],
+#save_button,
+.list_button
+{
+	display: inline-block;
+	vertical-align: top;
+	height: 30px;
+	line-height: 30px;
+	border: none;
+	font-size: 100%;
+	text-align: center;
+}
+
+input[type=text]
+{
+	float: left;
+	box-sizing: border-box;
+	width: 88%;
+	padding-left: 2%;
+	padding-right:	2%;
+	border: none;
+}
+
+#save_button
+{
+	width: 12%;
+	font-size: 16px;
+}
+
+.list_button
+{
+	width: 100%;
+	height: auto;
+	min-height: 30px;
+	background-color: rgba(240, 240, 240, 1);
+	border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+}
+
+#save_button
+{
+	font-family:	comfortaa;
+	font-size:		170%;
+}
+
+#save_button
+{
+	background-color: rgba(29, 135, 191, 0.7);
+	color:			rgba(255, 255, 255, 1);
+}
+
+.list_button:hover,
+.list_button.mouseover
+{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+#save_button:hover
+{
+	background-color: rgba(29, 135, 191, 0.5);
+}

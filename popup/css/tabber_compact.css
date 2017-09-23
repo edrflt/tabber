@@ -1,0 +1,9 @@
+input[type=text],
+#save_button,
+.list_button,
+.edit_button,
+.delete_button
+{
+	height:			25px;
+	line-height:	25px;
+}

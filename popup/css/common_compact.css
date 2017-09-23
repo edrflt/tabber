@@ -1,0 +1,12 @@
+#bar
+{
+	font-size: 110%;
+}
+
+#bar #infos,
+#bar #back,
+#bar #settings
+{
+	height: 20px;
+	line-height: 20px;
+}

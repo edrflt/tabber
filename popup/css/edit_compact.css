@@ -1,0 +1,22 @@
+input[type=text],
+#add_group_button,
+#replace_with_tabs,
+.list_button,
+.add_tabs_list_button,
+.delete_button
+{
+	height: 25px;
+}
+
+#change_url #tab_new_url
+{
+	height: 25px;
+}
+
+#change_url #edit_url_save_button,
+#change_url #edit_url_cancel_button,
+#add_group #add_group_button2,
+#add_group #cancel_group_button
+{
+	height: 20px;
+}

@@ -1,0 +1,107 @@
+{
+	"description":
+	{
+		"message": "Speichern Sie eine Tab Gruppe um sie später in einem neuen Fenster wieder auftauchen zu lassen. Erlaubt die Änderung von gespeicherte Gruppen indem man eine Adresse hinzufügen, löschen oder ändern kann.",
+		"description": "Description de l'extension"
+	},
+	"tabs_name_placeholder":
+	{
+		"message": "Meine Tabs nennen...",
+		"description": "Placeholder de tabber.html"
+	},
+	"edit_new_url_placeholder":
+	{
+		"message": "Adresse eingeben...",
+		"description": "Placeholder in new url input"
+	},
+	"button_add":
+	{
+		"message": "Hinzufügen",
+		"description": "Bouton ajouter page édition"
+	},
+	"button_add_group":
+	{
+		"message": "Tabs hinzufügen",
+		"description": "Bouton ajouter groupe page édition"
+	},
+	"button_save":
+	{
+		"message": "Speichern",
+		"description": "Bouton sauvegarder"
+	},
+	"button_cancel":
+	{
+		"message": "Abbrechen",
+		"description": "Bouton annuler"
+	},
+	"version":
+	{
+		"message": "Version",
+		"description": "version"
+	},
+	"updated_title":
+	{
+		"message": "wurde aktualisiert",
+		"description": "message Tabber a été mis à jour"
+	},
+	"changelog":
+	{
+		"message": "• Bug mit dunkel / licht Icon gefixt<br>• Verbesserte Seitenleiste nach dem Aktualisieren / Installieren von Tabber<br>• Diverse Verbesserungen",
+		"description": "changelog"
+	},
+	"button_good_news":
+	{
+		"message": "Gute Nachricht !",
+		"description": "bouton bonne nouvelle du changelog"
+	},
+	"button_version_notes":
+	{
+		"message": "Änderungsprotokoll",
+		"description": "Bouton notes de version"
+	},
+	"button_reset":
+	{
+		"message": "Tabber zurücksetzen",
+		"description": "Bouton réinitialisation"
+	},
+	"button_reset_continue":
+	{
+		"message": "Es wird alle Daten löschen. Fortfahren ?",
+		"description": "Bouton réinitialisation confirmation"
+	},
+	"button_compact":
+	{
+		"message": "Kompaktmodus aktivieren",
+		"description": "bouton mode compact"
+	},
+	"button_compact_disable":
+	{
+		"message": "Kompaktmodus deaktivieren",
+		"description": "bouton mode compact"
+	},
+	"button_replace_tabs":
+	{
+		"message": "Ersetzen derzeit Tabs",
+		"description": "bouton remplacer onglets"
+	},
+	"button_replace_tabs_disable":
+	{
+		"message": "Nicht mehr ersetzen derzeit Tabs",
+		"description": "bouton remplacer onglets"
+	},
+	"button_replace_with_tabs":
+	{
+		"message": "Ersetzen mit derzeit geöffnete Tabs",
+		"description": "bouton remplacer avec onglets actuels"
+	},
+	"button_replace_with_tabs_continue":
+	{
+		"message": "Kann nicht zurück. Fortfahren ?",
+		"description": "bouton remplacer avec onglets actuels"
+	},
+	"button_delete_continue":
+	{
+		"message": "Fortfahren das Löschen ?",
+		"description": "bouton confirmer suppression du groupe"
+	}
+}

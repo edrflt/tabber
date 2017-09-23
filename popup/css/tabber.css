@@ -1,0 +1,103 @@
+input[type=text],
+#save_button,
+.list_button,
+.edit_button,
+.delete_button
+{
+	display: inline-block;
+	vertical-align: top;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	font-size: 80%;
+	text-align: center;
+}
+
+input[type=text]
+{
+	float: left;
+	box-sizing: border-box;
+	width: 88%;
+	border: none;
+}
+
+#save_button
+{
+	width: 12%;
+	font-size: 16px;
+}
+
+.list_button
+{
+	width: 88%;
+	background-color: rgba(240, 240, 240, 1);
+}
+
+.list_button.continue
+{
+	font-size:			90%;
+	background-color:	rgba(255, 0, 0, 0.7);
+	color:				rgb(255, 255, 255);
+}
+
+#save_button
+{
+	font-family:	comfortaa;
+	font-size:		170%;
+}
+
+.edit_button,
+.delete_button
+{
+	width: 6%;
+
+	font-family:	comfortaa;
+	color:			rgba(0, 0, 0, 0.5);
+}
+
+.edit_button
+{
+	padding:	0;
+	font-size:	90%;
+}
+
+.delete_button
+{
+	font-size: 135%;
+}
+
+#save_button,
+.edit_button.mouseover
+{
+	background-color: rgba(29, 135, 191, 0.7);
+	color:			rgba(255, 255, 255, 1);
+}
+
+.delete_button.mouseover
+{
+	background-color: rgba(255, 0, 0, 0.7);
+	color:			rgba(255, 255, 255, 1);
+}
+
+.list_button:hover,
+.list_button.mouseover
+{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.list_button.continue:hover,
+.list_button.continue.mouseover
+{
+	background-color: rgba(255, 0, 0, 0.5);
+}
+
+#save_button:hover,
+.edit_button:hover
+{
+	background-color: rgba(29, 135, 191, 0.5);
+}
+
+.delete_button:hover
+{
+	background-color: rgba(255, 0, 0, 0.5);
+}

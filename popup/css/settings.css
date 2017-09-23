@@ -1,0 +1,76 @@
+#replace_tabs,
+#compact,
+#export,
+#import,
+#import_continue,
+#reset,
+#reset_continue
+{
+	width:			100%;
+	height:			40px;
+	margin-bottom:	5px;
+
+	border:	none;
+
+	font-size:	110%;
+	text-align:	center;
+	color:		rgb(255, 255, 255);
+}
+
+#replace_tabs,
+#compact
+{
+	background-color: rgba(0, 99, 93, 0.7);
+}
+
+#replace_tabs:hover,
+#compact:hover
+{
+	background-color: rgba(0, 99, 93, 0.5);
+}
+
+#replace_tabs.enabled,
+#compact.enabled
+{
+	background-color: rgba(115, 33, 42, 0.7);
+}
+
+#replace_tabs.enabled:hover,
+#compact.enabled:hover
+{
+	background-color: rgba(115, 33, 42, 0.5);
+}
+
+#export,
+#import,
+#import_continue
+{
+	background-color: rgba(29, 135, 191, 0.7);
+}
+
+#export:hover,
+#import:hover,
+#import_continue:hover
+{
+	background-color: rgba(29, 135, 191, 0.5);
+}
+
+#export
+{
+	margin-top: 10px;
+}
+
+#reset,
+#reset_continue
+{
+	margin-top:	20px;
+	margin-bottom: 0;
+
+	background-color: rgba(255, 0, 0, 0.7);
+}
+
+#reset:hover,
+#reset_continue:hover
+{
+	background-color: rgba(255, 0, 0, 0.5);
+}

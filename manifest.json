@@ -1,0 +1,89 @@
+{
+	"manifest_version": 2,
+	"applications":
+	{
+	    "gecko":
+		{
+	    	"id": "tabber@edgar-fouillet.fr",
+			"strict_min_version": "54.0"
+	    }
+	},
+	"name": "Tabber",
+	"version": "4.0",
+	"default_locale": "en",
+
+	"description": "__MSG_description__",
+
+	"icons":
+	{
+		"32": "icons/icon.svg",
+		"48": "icons/icon.svg",
+		"64": "icons/icon.svg",
+		"128": "icons/icon.svg"
+	},
+
+	"permissions":
+	[
+		"activeTab",
+		"tabs",
+		"storage"
+	],
+
+	"browser_action":
+	{
+		"browser_style": false,
+		"default_icon":
+		{
+			"16": "icons/icon.svg",
+			"32": "icons/icon.svg",
+			"64": "icons/icon.svg",
+			"128": "icons/icon.svg"
+		},
+	    "theme_icons":
+		[
+			{
+				"size": 16,
+				"light": "icons/icon_i.svg",
+				"dark": "icons/icon.svg"
+			},
+			{
+				"size": 32,
+				"light": "icons/icon_i.svg",
+				"dark": "icons/icon.svg"
+			},
+			{
+				"size": 64,
+				"light": "icons/icon_i.svg",
+				"dark": "icons/icon.svg"
+			},
+			{
+				"size": 128,
+				"light": "icons/icon_i.svg",
+				"dark": "icons/icon.svg"
+			}
+	    ],
+    	"default_title": "Tabber",
+    	"default_popup": "popup/tabber.html"
+	},
+	"background":
+	{
+		"scripts":
+		[
+			"popup/js/data.js",
+			"popup/js/common.js",
+			"background/background.js"
+		]
+	},
+	"sidebar_action":
+	{
+		"default_title": "Tabber",
+		"default_panel": "sidebar/tabber.html",
+		"default_icon":
+		{
+			"16": "icons/icon.svg",
+			"32": "icons/icon.svg",
+			"64": "icons/icon.svg",
+			"128": "icons/icon.svg"
+		}
+	}
+}
