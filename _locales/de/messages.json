@@ -81,12 +81,12 @@
 	},
 	"button_replace_tabs":
 	{
-		"message": "Ersetzen derzeit Tabs",
+		"message": "Ersetzt derzeit geöffnete Tabs",
 		"description": "bouton remplacer onglets"
 	},
 	"button_replace_tabs_disable":
 	{
-		"message": "Nicht mehr ersetzen derzeit Tabs",
+		"message": "Ersetzt nicht derzeit geöffnete Tabs",
 		"description": "bouton remplacer onglets"
 	},
 	"button_replace_with_tabs":
@@ -96,12 +96,12 @@
 	},
 	"button_replace_with_tabs_continue":
 	{
-		"message": "Kann nicht zurück. Fortfahren ?",
+		"message": "Alle geöffnete Tabs werden verloren. Fortfahren ?",
 		"description": "bouton remplacer avec onglets actuels"
 	},
 	"button_delete_continue":
 	{
-		"message": "Fortfahren das Löschen ?",
+		"message": "Löschen bestätigen ?",
 		"description": "bouton confirmer suppression du groupe"
 	}
 }
