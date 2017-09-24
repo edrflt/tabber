@@ -4,7 +4,7 @@ A Firefox addon to save your open tabs in one place
 
 ### Disclaimer 
 This addon was created with the goal to fit to **my personal needs** at a **specific moment**.  
-I chosed to share it with people, but I've **never intended to replace nor compete** with any other addon.  
+I chose to share it with people, but I've **never intended to replace nor compete** with any other addon.  
 
 ### Suggestions / contributions
 Feel free to contribute or suggest new features, UI or existing feature tweak.  
@@ -31,5 +31,5 @@ I'm not a native German speaker, thus this translation might be wrong. Feel free
 [Download on addons.mozilla.org](https://addons.mozilla.org/firefox/addon/tabber)
 
 ### Porting to Google Chrome and Microsoft Edge
-A port to these browser would be very easy since the API are the same.  
+A port to these browsers would be very easy since the API are the same.  
 It is kind of planned, but **I do not know** when.
