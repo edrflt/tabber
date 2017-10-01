@@ -1,12 +1,17 @@
 function	set_language()
 {
-	var description	= document.createTextNode(api.i18n.getMessage("description"));
-	var infos		= document.createTextNode(api.i18n.getMessage("version") + " " + version);
+	api.runtime.getBackgroundPage(function(page)
+	{
+		var	i18n	= page.i18n;
 
-	document.getElementById("description").appendChild(description);
-	document.getElementById("infos").appendChild(infos);
+		var description	= document.createTextNode(get_i18n(i18n, "description"));
+		var infos		= document.createTextNode(get_i18n(i18n, "version") + " " + version);
 
-	document.getElementById("version_notes").value	= api.i18n.getMessage("button_version_notes");
+		document.getElementById("description").appendChild(description);
+		document.getElementById("infos").appendChild(infos);
+
+		document.getElementById("version_notes").value	= get_i18n(i18n, "button_version_notes");
+	});
 }
 
 set_language();

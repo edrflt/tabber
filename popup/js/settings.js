@@ -3,26 +3,27 @@ function	set_language()
 	api.runtime.getBackgroundPage(function(page)
 	{
 		var	data	= page.data;
+		var	i18n	= page.i18n;
 
 		if (data.settings.replace_tabs)
 		{
-			document.getElementById("replace_tabs").value	= api.i18n.getMessage("button_replace_tabs_disable");
+			document.getElementById("replace_tabs").value	= get_i18n(i18n, "button_replace_tabs_disable");
 		}
 		else
 		{
-			document.getElementById("replace_tabs").value	= api.i18n.getMessage("button_replace_tabs");
+			document.getElementById("replace_tabs").value	= get_i18n(i18n, "button_replace_tabs");
 		}
 		if (data.settings.compact)
 		{
-			document.getElementById("compact").value	= api.i18n.getMessage("button_compact_disable");
+			document.getElementById("compact").value	= get_i18n(i18n, "button_compact_disable");
 		}
 		else
 		{
-			document.getElementById("compact").value	= api.i18n.getMessage("button_compact");
+			document.getElementById("compact").value	= get_i18n(i18n, "button_compact");
 		}
-	});
 
-	document.getElementById("reset").value	= api.i18n.getMessage("button_reset");
+		document.getElementById("reset").value	= get_i18n(i18n, "button_reset");
+	});
 }
 
 function	set_enabled_buttons()
@@ -121,8 +122,13 @@ document.addEventListener("click", function(e)
 	}
 	else if (e.target.id == "reset")
 	{
-		e.target.value	= api.i18n.getMessage("button_reset_continue");
-		e.target.id		= "reset_continue";
+		api.runtime.getBackgroundPage(function(page)
+		{
+			var	i18n	= page.i18n;
+
+			e.target.value	= get_i18n(i18n, "button_reset_continue");
+			e.target.id		= "reset_continue";
+		});
 	}
 	else if (e.target.id == "reset_continue")
 	{

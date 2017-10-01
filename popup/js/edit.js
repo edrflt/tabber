@@ -96,6 +96,7 @@ function	delete_tab(tab_id)
 	api.runtime.getBackgroundPage(function(page)
 	{
 		var	data	= page.data;
+		var	i18n	= page.i18n;
 
 		if (tab_id == deleting_id)
 		{
@@ -126,7 +127,7 @@ function	delete_tab(tab_id)
 
 			var	button	= document.getElementById(tab_id);
 
-			button.childNodes[0].nodeValue	=	api.i18n.getMessage("button_delete_continue");
+			button.childNodes[0].nodeValue	=	get_i18n(i18n, "button_delete_continue");
 			button.className				+=	" continue";
 			button.disabled					=	true;
 		}
@@ -195,13 +196,18 @@ function	replace_group_with_current_tabs()
 
 function	set_language()
 {
-	document.getElementById("replace_with_tabs").setAttribute("value", api.i18n.getMessage("button_replace_with_tabs"));
-	document.getElementById("add_group_button").setAttribute("value", api.i18n.getMessage("button_add_group"));
-	document.getElementById("add_group_button2").setAttribute("value", api.i18n.getMessage("button_add"));
-	document.getElementById("cancel_group_button").setAttribute("value", api.i18n.getMessage("button_cancel"));
-	document.getElementById("tab_new_url").setAttribute("placeholder", api.i18n.getMessage("edit_new_url_placeholder"));
-	document.getElementById("edit_url_save_button").setAttribute("value", api.i18n.getMessage("button_save"));
-	document.getElementById("edit_url_cancel_button").setAttribute("value", api.i18n.getMessage("button_cancel"));
+	api.runtime.getBackgroundPage(function(page)
+	{
+		var	i18n	= page.i18n;
+
+		document.getElementById("replace_with_tabs").		setAttribute("value",		get_i18n(i18n, "button_replace_with_tabs"));
+		document.getElementById("add_group_button").		setAttribute("value", 		get_i18n(i18n, "button_add_group"));
+		document.getElementById("add_group_button2").		setAttribute("value", 		get_i18n(i18n, "button_add"));
+		document.getElementById("cancel_group_button").		setAttribute("value", 		get_i18n(i18n, "button_cancel"));
+		document.getElementById("tab_new_url").				setAttribute("placeholder",	get_i18n(i18n, "edit_new_url_placeholder"));
+		document.getElementById("edit_url_save_button").	setAttribute("value", 		get_i18n(i18n, "button_save"));
+		document.getElementById("edit_url_cancel_button").	setAttribute("value", 		get_i18n(i18n, "button_cancel"));
+	});
 }
 
 id	= _GET("id");
@@ -227,8 +233,13 @@ document.addEventListener("click", function(e)
 	}
 	else if (e.target.id == "replace_with_tabs")
 	{
-		e.target.value	= api.i18n.getMessage("button_replace_with_tabs_continue");
-		e.target.id		= "replace_with_tabs_continue";
+		api.runtime.getBackgroundPage(function(page)
+		{
+			var	i18n	= page.i18n;
+
+			e.target.value	= get_i18n(i18n, "button_replace_with_tabs_continue");
+			e.target.id		= "replace_with_tabs_continue";
+		});
 	}
 	else if (e.target.id == "replace_with_tabs_continue")
 	{

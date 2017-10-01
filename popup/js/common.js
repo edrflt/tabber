@@ -104,6 +104,27 @@ function	load_css()
 	});
 }
 
+function	get_i18n(i18n, message)
+{
+	if (typeof i18n[message] !== 'undefined')
+	{
+		if (typeof i18n[message].message !== 'undefined')
+		{
+			return (i18n[message].message);
+		}
+	}
+
+	if(typeof i18n.default[message] !== 'undefined')
+	{
+		if (typeof i18n.default[message].message !== 'undefined')
+		{
+			return (i18n.default[message].message);
+		}
+	}
+
+	return ("");
+}
+
 function	_GET(param)
 {
 	var vars = {};

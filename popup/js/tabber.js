@@ -148,6 +148,7 @@ function	delete_group(id)
 	api.runtime.getBackgroundPage(function(page)
 	{
 		var	data	= page.data;
+		var	i18n	= page.i18n;
 
 		if (id == deleting_id)
 		{
@@ -178,7 +179,7 @@ function	delete_group(id)
 
 			var	button	= document.getElementById(id);
 
-			button.childNodes[0].nodeValue	=	api.i18n.getMessage("button_delete_continue");
+			button.childNodes[0].nodeValue	=	get_i18n(i18n, "button_delete_continue");
 			button.className				+=	" continue";
 			button.disabled					=	true;
 		}
@@ -187,7 +188,12 @@ function	delete_group(id)
 
 function	set_language()
 {
-	document.getElementById("tabs_name").setAttribute("placeholder", api.i18n.getMessage("tabs_name_placeholder"));
+	api.runtime.getBackgroundPage(function(page)
+	{
+		var	i18n	= page.i18n;
+
+		document.getElementById("tabs_name").setAttribute("placeholder", get_i18n(i18n, "tabs_name_placeholder"));
+	});
 }
 
 function	set_click_event()
