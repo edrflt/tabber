@@ -13,7 +13,7 @@ If you can implement it, do not hesitate, I'll see how I can take your work in.
 
 ### Translating
 If you can translate the addon in your language, I'll appreciate that a lot.  
-I'm not a native German speaker, thus this translation might be wrong. Feel free to post an issue or fix it.  
+To work on internationalisation, please visit [Tabber Internationalisation](https://github.com/edrflt/tabber_i18n/) GitHub page for further information.  
 **Thank you a lot**
 
 ### Features implemented yet :
