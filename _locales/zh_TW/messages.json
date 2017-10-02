@@ -3,10 +3,5 @@
 	{
 		"message": "儲存分頁組，以便稍後在新視窗中還原。 您可以透過新增、刪除或變更每個分頁的網址來編輯儲存的分頁組。",
 		"description": "Extension description"
-	},
-	"tabber_i18n_url":
-	{
-		"message": "https://raw.githubusercontent.com/edrflt/tabber_i18n/master/zh_TW/",
-		"description": "url for translations"
 	}
 }

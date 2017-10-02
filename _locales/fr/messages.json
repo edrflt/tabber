@@ -3,10 +3,5 @@
 	{
 		"message": "Sauvegardez un groupe d'onglets afin de le restaurer plus tard dans une nouvelle fenêtre. Permet de modifier les groupes d'onglets sauvegardés en ajoutant, supprimant ou éditant l'url de chaque onglet.",
 		"description": "Description de l'extension"
-	},
-	"tabber_i18n_url":
-	{
-		"message": "https://raw.githubusercontent.com/edrflt/tabber_i18n/master/fr/",
-		"description": "url for translations"
 	}
 }

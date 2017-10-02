@@ -3,10 +3,5 @@
 	{
 		"message": "Save your groups of tabs so you can restore them later in a new window. You can edit saved tabs groups by adding, deleting or changing the url for each tab.",
 		"description": "Extension description"
-	},
-	"tabber_i18n_url":
-	{
-		"message": "https://raw.githubusercontent.com/edrflt/tabber_i18n/master/en/",
-		"description": "url for translations"
 	}
 }

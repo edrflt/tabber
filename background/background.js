@@ -51,7 +51,7 @@ function	set_message_event()
 function	retrieve_i18n()
 {
 	var	request	= new XMLHttpRequest();
-	var	url		= api.i18n.getMessage("tabber_i18n_url") + "messages.json";
+	var	url		= "https://raw.githubusercontent.com/edrflt/tabber_i18n/master/" + api.i18n.getUILanguage().replace("-", "_") + "/messages.json";
 
 	request.open("GET", url, true);
 	request.overrideMimeType("application/json");
@@ -67,7 +67,7 @@ function	retrieve_i18n()
 			}
 			catch(e)
 			{
-				
+
 			}
         }
 		get_default_i18n();

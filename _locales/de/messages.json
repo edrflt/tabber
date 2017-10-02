@@ -3,10 +3,5 @@
 	{
 		"message": "Speichern Sie eine Tab Gruppe um sie später in einem neuen Fenster wieder auftauchen zu lassen. Erlaubt die Änderung von gespeicherte Gruppen indem man eine Adresse hinzufügen, löschen oder ändern kann.",
 		"description": "Description de l'extension"
-	},
-	"tabber_i18n_url":
-	{
-		"message": "https://raw.githubusercontent.com/edrflt/tabber_i18n/master/de/",
-		"description": "url for translations"
 	}
 }
