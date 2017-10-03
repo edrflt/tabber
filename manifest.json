@@ -5,11 +5,11 @@
 	    "gecko":
 		{
 	    	"id": "tabber@edgar-fouillet.fr",
-			"strict_min_version": "54.0"
+			"strict_min_version": "55.0"
 	    }
 	},
 	"name": "Tabber",
-	"version": "4.0.1",
+	"version": "5.0",
 	"default_locale": "en",
 
 	"description": "__MSG_description__",
