@@ -85,5 +85,15 @@
 			"64": "icons/icon.svg",
 			"128": "icons/icon.svg"
 		}
+	},
+	"commands":
+	{
+		"_execute_browser_action":
+		{
+			"suggested_key":
+			{
+				"default": "Alt+Shift+T"
+			}
+		}
 	}
 }
