@@ -5,11 +5,11 @@
 	    "gecko":
 		{
 	    	"id": "tabber@edgar-fouillet.fr",
-			"strict_min_version": "54.0"
+			"strict_min_version": "55.0"
 	    }
 	},
 	"name": "Tabber",
-	"version": "4.0.1",
+	"version": "5.0",
 	"default_locale": "en",
 
 	"description": "__MSG_description__",
@@ -84,6 +84,16 @@
 			"32": "icons/icon.svg",
 			"64": "icons/icon.svg",
 			"128": "icons/icon.svg"
+		}
+	},
+	"commands":
+	{
+		"_execute_browser_action":
+		{
+			"suggested_key":
+			{
+				"default": "Alt+Shift+T"
+			}
 		}
 	}
 }

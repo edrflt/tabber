@@ -230,6 +230,24 @@ function	set_click_event()
 	});
 }
 
+function	set_return_event()
+{
+	document.addEventListener("keypress", function (e)
+	{
+	    var	key = e.which || e.keyCode;
+	    if (key === 13)
+		{
+			if (e.target.id == "tabs_name")
+			{
+				if (document.getElementById("tabs_name").value != "")
+				{
+					add_group_to_list();
+				}
+			}
+	    }
+	});
+}
+
 function	set_mouseover_event()
 {
 	document.addEventListener("mouseover", function(e)
@@ -300,7 +318,9 @@ function	set_message_event()
 set_language();
 
 set_click_event();
+set_return_event();
 set_mouseover_event();
 set_mouseout_event();
 
 fill_group_list();
+if (location.search != "?focusHack") location.search = "?focusHack";
